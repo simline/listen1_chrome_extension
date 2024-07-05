@@ -274,7 +274,7 @@ const main = () => {
             // page not shown
             return;
           }
-          const offsetToload = 10;
+          const offsetToload = baseHeight/2;
           if (remain <= offsetToload) {
             $rootScope.$broadcast('infinite_scroll:hit_bottom', '');
           }

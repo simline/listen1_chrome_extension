@@ -161,7 +161,7 @@ angular.module('listenone').controller('PlayController', [
       );
       $scope.autoChooseSourceList = getLocalStorageValue(
         'auto_choose_source_list',
-        ['kuwo', 'qq', 'migu']
+        ['netease', 'qq', 'kugou', 'kuwo', 'migu']
       );
       $scope.enableStopWhenClose =
         isElectron() || getLocalStorageValue('enable_stop_when_close', true);
